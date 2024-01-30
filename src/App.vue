@@ -7,7 +7,6 @@
     <!-- task list -->
     <div class="task-list">
       <div v-for="task in taskStore.tasks">
-        <P>{{ title }}</P>
         <TaskDetails :task="task" />
       </div>
     </div>
