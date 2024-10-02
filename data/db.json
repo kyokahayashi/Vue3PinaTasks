@@ -1,0 +1,8 @@
+{
+  "tasks": [
+    { "id": 1, "title": "play piano", "isFav": true },
+    { "id": 2, "title": "頭痛薬買う", "isFav": false },
+    { "id": 3, "title": "映画のチケットを買う", "isFav": true },
+    { "id": 4, "title": "服の断捨離", "isFav": false }
+  ]
+}

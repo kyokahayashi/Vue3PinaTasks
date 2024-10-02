@@ -27,4 +27,13 @@ npm run dev
 ```sh
 npm run build
 ```
+
 # Vue3PinaTasks
+
+# json server の使い方
+
+- "data"ディレクトリをルート直下に作る
+- data dir の中に"db.json"ファイルを作成
+- "npm install -g json-server"で json-server をインストール
+- "son-server -w ./data/db.json"で json-server の参照元を指定
+- 上記を実行するとエンドポイントが作成されるのでそれを非同期処理に使える
